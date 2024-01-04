@@ -23,7 +23,7 @@ Simple and responsive design.
 - Open the cdTimer.html file in your web browser.
 - The countdown timer will start automatically, showing the time remaining until the next New Year's Day.
 - 
-- ## File Structure: 
+## File Structure: 
 - cdTimer.html.html: HTML file for the Countdown Timer interface.
 - cdTimer.html.css: CSS file for styling the Countdown Timer.
 - cdTimer.html.js: JavaScript file for the Countdown Timer functionality.
