@@ -1,0 +1,48 @@
+body{
+    background-image: url('cdTimer/cdTimerback.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.c-d{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    align-items: center;
+    border-radius: 10px;
+    height: auto;
+    width: 30%;
+    color:white;
+    opacity: 0.9;
+    border: 1px solid rgb(228, 221, 221);
+}
+.timer{
+    display: flex;
+}
+.time{
+    text-align: center;
+    margin: auto;
+    color:black;
+    font-size: 20px;
+    border: none;
+    width:20%;
+    height: 100%; 
+    background:  white;
+    border-radius: 10px; 
+    border: 1px solid rgb(22, 22, 22);
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 30px; /* Adjusted font size for better readability on smaller screens */
+    }
+    .c-d{
+        width: 95%;
+    }
+    .time {
+        width: 100%; /* Make the elements take the full width on smaller screens */
+    }
+   
+}
